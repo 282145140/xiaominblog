@@ -41,6 +41,8 @@ public class LogAspect {
         RequestLog requestLog=new RequestLog(url,ip,classMethod,args);
         logger.info("--------------doBefore----------------");
         logger.info("Request:{}",requestLog);
+
+
     }
 
     @After("log()")
