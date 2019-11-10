@@ -9,8 +9,7 @@ target/
 .classpath
 .factorypath
 .project
-.settings
-.springBeans
+.settings.springBeans
 .sts4-cache
 
 ### IntelliJ IDEA ###
