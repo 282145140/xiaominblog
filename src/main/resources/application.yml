@@ -1,0 +1,19 @@
+spring:
+  thymeleaf:
+    mode: HTML
+  profiles:
+    active: dev
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+
+#person:
+#  age: 10
+#  name: lele
+#  dog:
+#    name: xiaogou
+#    age: 10
+#  list:
+#    - xiaomin
+#    - xiaoli
+#    - ksdfjks
+#  map: {k1: v1,12: 12}
